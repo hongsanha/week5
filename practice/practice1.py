@@ -13,3 +13,4 @@ f.write("\n")
 for i in results:
     f.write(str(rank)+"위:"+i.get_text()+"\n")
     rank+=1
+f.close()
